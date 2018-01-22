@@ -5,9 +5,9 @@ suppressWarnings(library(stringr))
 
 # Load Quadgram,Trigram & Bigram Data frame files
 
-quadgram <- readRDS("C:/CapstoneProject/en_US/ShinyApp/quadgram.RData");
-trigram <- readRDS("C:/CapstoneProject/en_US/ShinyApp/trigram.RData");
-bigram <- readRDS("C:/CapstoneProject/en_US/ShinyApp/bigram.RData");
+quadgram <- readRDS("quadgram.RData");
+trigram <- readRDS("trigram.RData");
+bigram <- readRDS("bigram.RData");
 mesg <<- ""
 
 # Cleaning of user input before predicting the next word
